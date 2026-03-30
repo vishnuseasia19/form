@@ -1,0 +1,29 @@
+// test('popup', async({page})=>{
+//     await page.goto('https://demoqa.com/alerts');
+//   page.once('dialog', async dialog => {
+//     expect(dialog.message()).toContain('You clicked a button');
+//     await dialog.accept();
+//   });
+//     await page.click('#alertButton');
+  
+//     const startTime = Date.now(); // capture start time
+// page.once('dialog', async dialog => {
+//       const endTime = Date.now();
+//       const timeTaken=(endTime-startTime)/1000;
+//         expect(timeTaken).toBeGreaterThanOrEqual(5);
+//     expect(dialog.message()).toContain('This alert appeared after 5 seconds');
+
+//     await dialog.accept();
+//   });
+
+//   await page.click('#timerAlertButton');
+  
+//   page.once('diaglog',async dialog =>
+// {
+//    expect(dialog.message()).toContain('Do you confirm action?');
+//    await dialog.accept();
+// });
+// await page.click('#confirmButton');
+
+//  await page.pause();
+// })
