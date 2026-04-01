@@ -12,7 +12,7 @@ test('Frame test', async ({page}) => {
            .toContainText('Parent frame');
 
            const childFrame=parentFrame.frameLocator('iframe');
-              await expect(childFrame.locator('p')).toHaveText('Child Iframe');
+            await expect(childFrame.locator('p')).toHaveText('Child Iframe');
          
         
 
